@@ -18,8 +18,8 @@ import scala.collection.JavaConversions._
 
 class TypeMapper {
   
-  val DT_MAPPING_PREFIX = "com.numerify.adapter.TypeMapping."
-  val DATATYPE_MAPPING_PROP: String = "/TypeMapping.properties"
+  val DT_MAPPING_PREFIX = "attributeMapping."
+  val DATATYPE_MAPPING_PROP: String = "/attributeMapping.properties"
   val PROP_DEF_TIMEZONE: String = "defaultTimeZoneQuery"
   val PROP_TEST_CNN: String = "testQuery"
   val jdbcTypeNames = new HashMap[Integer, String]()  
